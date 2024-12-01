@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect 4 Leaderboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="text-center">
+        <img style="width: 15%;" src="connect4-title.jpg" alt="Title"/>
+    </div>
+
+    <div class="container">
+        <table class="table table-striped text-center">
+            <thead>
+                <tr>
+                    <th class="border border-0" style="background-color: #fffde4;;"></th>
+                    <th colspan="3" class="border border-bottom-0 border-end-0 table-danger">Player First</th>
+                    <th colspan="3" class="table-warning border border-bottom-0 border-start-0">Bot First</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr class="table-primary">
+                    <th scope="col" class="w-25">Name</th>
+                    <th scope="col">Easy</th>
+                    <th scope="col">Medium</th>
+                    <th scope="col">Hard</th>
+                    <th scope="col">Easy</th>
+                    <th scope="col">Medium</th>
+                    <th scope="col">Hard</th>
+                    <th scope="col" class="w-25">Last Update</th>
+                </tr>
+            </thead>
+            <tbody id="body" class="">
+    
+            </tbody>
+        </table>
+    
+    </div>
+</body>
+</html>
